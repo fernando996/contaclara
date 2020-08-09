@@ -5,7 +5,7 @@ export default {
   ** Nuxt rendering mode
   ** See https://nuxtjs.org/api/configuration-mode
   */
-  mode: 'universal',
+  mode: 'spa',
   /*
   ** Nuxt target
   ** See https://nuxtjs.org/api/configuration-target
@@ -57,13 +57,20 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    // Doc: https://github.com/nuxt/content
+    '@nuxt/content'
   ],
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
   */
   axios: {},
+  /*
+  ** Content module configuration
+  ** See https://content.nuxtjs.org/configuration
+  */
+  content: {},
   /*
   ** vuetify module configuration
   ** https://github.com/nuxt-community/vuetify-module
