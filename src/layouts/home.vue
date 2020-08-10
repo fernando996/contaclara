@@ -26,6 +26,28 @@
         <v-icon>mdi-home</v-icon>
       </v-btn>
     </v-app-bar>
+    <v-parallax dark height="600" src="/pexels.png">
+      <div class="white--text text-h2 font-weight-bold text-center">
+        Contaclara
+      </div>
+      <div class="white--text subtitle-1 text-center">
+        Gabinete de Contabilidade, Lda
+      </div>
+
+      <!-- <div class="white--text text-h4 font-weight-bold text-center">
+        A luz que clarifica a sua contabilidade
+      </div> -->
+      <div class="white--text text-h5 font-weight-bold text-center">
+        Serviços de contabilidade e auditoria, consultoria fiscal.
+      </div>
+
+      <!-- <v-img
+        class="home-image"
+        src="/pexels.jpg"
+        max-height="500vh"
+        gradient="to top right, rgba(100,115,201,.33), rgba(25,32,72,.7)"
+      ></v-img> -->
+    </v-parallax>
     <v-main>
       <v-container class="pa-0 ma-0" fluid>
         <nuxt />
